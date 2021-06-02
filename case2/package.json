@@ -1,0 +1,36 @@
+{
+  "name": "case2",
+  "version": "0.0.1.210602",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/YOOGOMJA/aframe-casestudy",
+  "author": {
+    "email": "dev.yoogomja@gmail.com",
+    "name": "KyeongSoo Yoo",
+    "url": "https://www.linkedin.com/in/yoo-kyeongsoo-80a76b195/"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --open --hot",
+    "prod": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "aframe": "^1.2.0",
+    "aframe-physics-system": "^4.0.1",
+    "ammo": "^3.0.3",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.116.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.4.0"
+  }
+}
