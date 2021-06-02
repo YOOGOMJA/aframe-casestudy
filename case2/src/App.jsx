@@ -5,7 +5,7 @@ import Floor from "./components/Floor";
 
 const App = () => {
   return (
-    <a-scene stats>
+    <a-scene stats physics=' driver: ammo; debug: true; debugDrawMode: 1;'>
       <Camera />
       <Sample />
       <Floor />

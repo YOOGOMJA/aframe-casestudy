@@ -1,0 +1,12 @@
+# global
+node_modules
+yarn-error.log
+assets
+yarn.lock
+build
+
+# case2 
+
+
+
+
