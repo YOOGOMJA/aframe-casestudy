@@ -3,9 +3,9 @@ import React from "react";
 const Sample = () => {
   return (
     <a-box
-      ammo-body='type: dynamic'
-      ammo-shape='type: box'
-      position='0 4 -2'
+      ammo-body
+      ammo-shape='type: box;'
+      position='0 10 -2'
       width='3'
       height='2'
       depth='1'

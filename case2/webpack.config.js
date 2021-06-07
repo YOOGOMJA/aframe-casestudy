@@ -7,7 +7,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "main.js",
-    webassemblyModuleFilename: "[hash].wasm",
   },
   devServer: {
     port: 3000,
@@ -27,8 +26,7 @@ module.exports = {
           loader: "file-loader",
           options: {
             outputPath: "assets/wasm", //set this whatever path you desire
-            publicPath: "/",
-            name: "[name].[ext]",
+            name: "[name]-[hash].[ext]",
           },
         },
       },
