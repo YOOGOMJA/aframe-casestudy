@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="stand" src="./assets/장스탠드/장스탠드.gltf" />
+        <a-asset-item id="incense" src="./assets/인센스/인센스.gltf" />
+        <a-asset-item
+          id="box"
+          src="./assets/우드 종이수납함/종이수납함 나무.gltf"
+        />
+      </a-assets>
+      <a-gltf-model src="#stand" scale=".1 .1 .1" position="0 0 -2" />
+      <a-gltf-model src="#incense" scale="1 1 1" position="0 0 -2" />
+      <a-gltf-model src="#box" scale="1 1 1" position="0 0 -2" />
+      <a-plane
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="100"
+        height="100"
+        color="#7BC8A4"
+      ></a-plane>
+      <a-light position="0 10 0" type="ambient" />
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
